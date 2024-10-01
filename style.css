@@ -1,0 +1,40 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para la sección */
+section {
+    text-align: center;
+    font-size: 23px;
+}
+
+/* Estilos para la imagen */
+img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para los botones */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:  #b48fb8;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #561895;
+}
